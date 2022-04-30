@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">David Cristian Putra Sutanto</a>
+
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list grid">
+                        <li class="nav_item">
+                            <a href="#Home" class="nav_link active-link">
+                                <i class="uil uil-estate nav_icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#Portofolio" class="nav_link">
+                                <i class="uil uil-scenery nav_icon"></i> Tugas UTS
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav_close" id="nav-close"></i>
+                </div>
+
+                <div class="nav_btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav_toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="Home">
+                <div class="Home_container container grid">
+                    <div class="Home_content grid">
+                        <div class="Home_social">
+                            <a href="https://www.facebook.com/" target="_blank" class="Home_social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank" class="Home_social-icon">
+                                <i class="uil uil-instagram"></i>
+                            </a>
+
+                            <a href="https://twitter.com/" target="_blank" class="Home_social-icon">
+                                <i class="uil uil-twitter-alt"></i>
+                            </a>
+                        </div>
+                        <div class="Home_img">
+                            <svg class="Home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="Home_blob-img"  xlink:href="assets/img/pas-foto.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="Home_data">
+                            <h1 class="Home_title">Hi, Saya Putra</h1>
+                            <h3 class="Home_subtitle">Portofolio</h3>
+                            <p class="Home_description">Nama saya David Cristian Putra Sutanto seorang mahasiswa Unikama dari Prodi Teknik Informatika semester II dengan NPM 210403010058. Saya lahir di Pasuruan dan asli orang Indonesia. Pembuatan Responsive Web ini digunakan untuk tugas UTS web dasar semester II dengan dosen pengampu Heri Santoso, M.Kom.</p>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="Portofolio">
+                <h2 class="section_title">Tugas UTS Semester 2</h2>
+                <span class="section_subtitle">Format Text HTML</span>
+
+                <div class="portofolio_container container swiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/databold.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Bold Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><b>This is text bold</b></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><b>This is text bold</b></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_b" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/dataimportant.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Table & Important Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><strong>This text is text Important!</strong></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><strong>This text is Important!</strong></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_strong" target="
+                                _blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/dataitalic.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Table & Italic Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><i>This text  italic </i></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><i>This text  italic </i></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_i" target="
+                                _blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 4====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/dataemphaszd.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Emphasized Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><em>This text is emphasized</em></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><em>This text is emphasized</em></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_em" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 5====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/datamrkd.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Marked Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><mark>This text is marked</mark></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><mark>This text is marked</mark></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_mark" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 6====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/datasmltxt.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Smaller Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><small>This text is smaller text</small></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><small>This text is smaller text</small></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_small" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 7====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/datadel.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Deleted Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><del>This text is deleted</del></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><del>This text is deleted</del></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_del" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 8====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/datains.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Inserted Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><ins>This text is Inserted</ins></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><ins>This text is Inserted</ins></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_del_ins" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 9====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/datasub.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Subscript Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><sub>This text is subscripted</sub></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><sub>This text is subscripted</sub></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_sub" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 10====================-->
+                        <div class="portofolio_content grid swiper-slide">
+                            <img src="assets/img/datasup.png" alt="" class="portofolio_img">
+
+                            <div class="portofolio_data">
+                                <h3 class="portofolio_title">Tabel & Superscript Text</h3>
+                                <table  class="portofolio_description">
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table"><sup>This text is superscripted</sup></p>
+                                        </td>
+                                    </tr>
+                                    <tr class="tr_color">
+                                        <td>
+                                            <p class="color-table"><sup>This text is superscripted</sup></p>
+                                        </td>
+                                        <td>
+                                            <p class="color-table">Example Text</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                                    
+                                <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_formatting_sup" target="_blank" class="button button-flex button-small portofolio_button">
+                                    Demo <i class="uil uil-arrow-right button_icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portofolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portofolio-icon"></i>
+                    </div>
+                        
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer_title">Putra</h1>
+                        <span class="footer_subtitle">Frontend Developer</span>
+                    </div>
+
+                    <ul class="footer_links">
+                        <li>
+                            <a href="#Portofolio" class="footer_link">Tugas UTS</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer_socials">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer_social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer_social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer_social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <p class="footer_copy">&#169 Putra. All right reserved</p>
+            </div>
+        </footer>
+        
+        <!--==================== SCROLL UP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup_icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+
+
+    </body>
+</html>
